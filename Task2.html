@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Task2.css">
+  <script src="Task2.js" defer></script>
+</head>
+  <body>
+    <nav class="nav">
+      <div class="logo">Navigation</div>
+      <ul class="nav-links">
+        <li><a href="#todo">To-Do Section</a></li>
+        <li><a href="#contact">Go to Form</a></li>
+      </ul>
+    </nav>
+    <div class="main">
+      <div class="card" id="todo">
+          <h2>Dynamic To-Do List</h2>
+          <div class="todo-input">
+            <input type="text" placeholder="Add a new task...">
+            <button class="todo-btn">Add Task</button>
+          </div>
+        <ul class="todo-ul">
+          <!-- <li class="todo-li">
+            <span>hello</span>
+            <button class="todo-li-btn">delete</button>
+          </li>
+          <li class="todo-li">
+            <span>hello</span>
+            <button class="todo-li-btn">delete</button>
+          </li> -->
+        </ul>
+      </div>
+      <div class="card" id="contact">
+        <h2>Personal Details Form</h2>
+        <form>
+          <div class="form-inside">
+            <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Enter your full name">
+          </div>
+          <div class="form-inside">
+            <label for="number">Mobile No.</label>
+          <input id="number" type="text" placeholder="Mobile number">
+          </div>
+          <div class="form-inside">
+            <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Enter your Email">
+          </div>
+          <div class="form-inside">
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" rows="3" placeholder="Write your feedback here...
+(not mandatory)"></textarea>
+          </div>
+          <button class="submit-btn">Submit your form</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
